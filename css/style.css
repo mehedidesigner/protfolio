@@ -1,0 +1,601 @@
+/*===========Global Section Start Heare=================*/
+
+.section-header{
+	position: relative;
+	padding-bottom: 50px;
+}
+
+.section-header h2, p{
+	text-align: center;
+}
+
+.section-header h2{
+	font-size: 35px;
+}
+
+.section-header p::after {
+	content: '';
+	display: inline-block;
+	width: 5%;
+	height: 2px;
+	background-color: #032f3e;
+	position: absolute;
+	top: 45%;
+	right: 43%;
+} 
+
+.section-header p::before {
+	content: '';
+	display: inline-block;
+	width: 5%;
+	height: 2px;
+	background-color: #032f3e;
+	position: absolute;
+	top: 45%;
+	left: 43%;
+}
+
+/*===========Global Section End Heare=================*/
+
+/*===========Navbar Start Heare=================*/
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding:1rem 2rem;
+}
+
+.navbar-toggler-icon{
+	color: #fff;
+}
+.nav-top li{
+	list-style: none;
+	padding: 0 25px;
+}
+
+.some-icon .fa:hover {
+	color: #a8a891;
+	font-size: 20px;
+	transition: all 0.5s;
+}
+
+.some-icon .fa{
+	padding-left: 15px;
+}
+
+.nav-top li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.navbar-brand img{
+	height: auto;
+	width: 120px;
+	border-radius: 50%;
+}
+
+#nav-bar {
+    background-color: #032f3e !important;
+}
+
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    background-color: rgba(255,255,255,.1);
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+.is-sticky{
+	z-index: 200;
+}
+
+.is-sticky #nav-bar{
+	background-color: #011218 !important;
+	transition: all 0.5s;
+}
+
+
+/*===========Navbar End Heare=================*/
+
+/*===========Carousel Start Heare=================*/
+
+
+.carousel-item{
+	position: relative;
+}
+.carousel-caption{
+	position: absolute;
+	left: 50%;
+	top: 60%;
+	transform: translate(-50%,-50%);
+}
+.d-block{
+	width: auto;
+	height: 800px;
+}
+/*===========Carousel End Heare=================*/
+
+/*===========Banner Part Start Heare=================*/
+
+#bannar{
+	 background-image: url("../img/pic2.jpg");
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	padding: 400px 0;
+	position: relative;
+}
+
+#bannar h1{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	font-weight: 500;	
+	font-size: 50px;
+}
+
+#bannar h3{
+	position: absolute;
+	left: 50%;
+	top: 62%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+
+#bannar .icon {
+	position: absolute;
+	left: 50%;
+	top: 57%;
+	transform: translate(-50%,-50%);
+	color: #032f3e;
+}
+
+#bannar p{
+	position: relative;
+}
+
+#bannar p::after {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 50%;
+	height: 3px;
+	background-color: #032f3e;
+	right: -85%;
+	top: 60%;
+	transform: translate(-50%,-50%);
+}
+
+#bannar p::before {
+	content: '';
+	display: inline-block;
+	position: absolute;
+	width: 50%;
+	height: 3px;
+	background-color: #032f3e;
+	left: -35%;
+	top: 60%;
+	transform: translate(-50%,-50%);
+}
+
+/*===========Banner Part End Heare=================*/
+
+/*===========About Start Heare=================*/
+
+#about{
+	padding: 90px 0;	
+}
+
+#about .btn-primary{
+	background-color: #011218;
+}
+
+.progress-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    margin: 0 0 25px;
+}
+
+.progress{
+    height: 10px;
+    background: #e9e9ea;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    overflow: visible;
+    position: relative;
+}
+
+.progress:before,
+.progress:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    z-index: 1;
+}
+
+.progress:after{
+    border: 7px solid #e9e9ea;
+    left: auto;
+    right: 0;
+}
+
+.progress .progress-bar{
+    box-shadow: none;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s;
+}
+
+.progress .progress-value{
+    width: 70px;
+    height: 35px;
+    line-height: 27px;
+    border-radius: 20px;
+    background: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    position: absolute;
+    top: -12px;
+    right: 0;
+    z-index: 2;
+}
+
+.progress.orange:before{ border: 7px solid #fe3b3b; }
+.progress.blue:before{ border: 7px solid #1a4966; }
+.progress.green:before{ border: 7px solid #53aa2c; }
+.progress.purple:before{ border: 7px solid #66406f; }
+.progress.orange .progress-value{
+    border: 5px solid #fe3b3b;
+    color: #fe3b3b;
+}
+
+.progress.blue .progress-value{
+    border: 5px solid #1a4966;
+    color: #1a4966;
+}
+
+.progress.green .progress-value{
+    border: 5px solid #53aa2c;
+    color: #53aa2c;
+}
+
+.progress.purple .progress-value{
+    border: 5px solid #66406f;
+    color: #66406f;
+}
+
+.progress .progress-bar {
+    border-radius: 0;
+    height: 0;
+    background-color: #0d47a1;
+}
+
+@-webkit-keyframes animate-positive{
+    0%{ width: 0; }
+}
+
+@keyframes animate-positive{
+    0%{ width: 0; }
+}
+
+
+/*===========About End Heare=================*/
+
+/*===========Protfolio Start Heare=================*/
+
+#protfolio .row {
+	padding-bottom: 25px;
+}
+
+.img{
+	max-width: 100%;
+  }
+
+.parent {
+	position: relative;
+	overflow: hidden;
+}
+
+.caption {
+	position: absolute;
+	transition: all 0.3s;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+14,0.45+100 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 14%, rgba(0,0,0,0.45) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 14%,rgba(0,0,0,0.45) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 14%,rgba(0,0,0,0.45) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#73000000',GradientType=0 ); /* IE6-9 */
+}
+
+.parent .caption .need{
+	position: absolute;
+	bottom: 10px;
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	transform: translateY(50%);
+	transition: all 0.3s;
+	margin: 0;
+	padding: 0;
+	font-size: 35px;
+}
+
+.parent .caption .need a{
+	font-size: 20px;
+	color: #fff;
+}
+
+.parent .caption .need h1{
+	margin: 0;
+	padding: 0;
+}
+
+.parent:hover .caption{
+	background-color: rgba(0,0,0,0.8);
+
+}
+.parent:hover .caption .need{
+	bottom: 50%;
+}
+/*===========Protfolio End Heare=================*/
+
+/*===========Contact Start Heare=================*/
+#contact{
+	padding: 90px 0;	
+}
+
+#contact .row .contact-icon .fa{
+	padding: 10px;
+	border: 1px solid #212529;
+	border-radius: 50%;
+	color: #212529;
+}
+
+#contact .row .contact-icon p{
+	text-align: left;
+}
+
+#contact .btn-outline-secondary{
+	margin-top: 20px;
+}
+
+/*===========Contact End Heare=================*/
+
+#footer .row p{
+		text-align: left;
+		color: #fff;
+		padding-top: 30px;
+}
+
+#footer .row .up-symble ul{
+    display: flex;
+   justify-content: flex-end;
+}
+
+#footer .row .up-symble ul li{
+	list-style: none;
+	padding-left:25px;
+	padding-top: 30px;
+}
+
+#footer .row .up-symble ul li a .fa{
+	color: #fff;
+}
+
+#footer {
+	background-color: #011218;
+}	
+
+/*===========Media Quere Start Heare=================*/
+
+@media (min-width: 992px) {
+
+	.navbar-expand-lg .navbar-nav .nav-link {
+		border-left: 0.5px solid #fff;
+	}
+
+	.nav-last {
+		border-right: 0.5px solid #fff;
+	}
+
+	#navbar {
+	    background-color: #032f3e !important;
+	    position: relative;
+	}
+
+	.align-bottom {
+		position: absolute;
+		bottom: 5px;
+		left: 45%;
+	}
+
+	.nav-top {
+		display: flex;
+		position: absolute;
+		top: 20%;
+		left: 40%;
+	}
+
+}
+
+
+@media (max-width: 992px) {
+
+	.navbar-brand img{
+		height: auto;
+		width: 70px;
+		border-radius: 50%;
+	}
+
+	.nav-top{
+	 display: none;
+	}
+
+	.skill{
+	padding: 25px 0;
+	}
+
+	#about, #contact, #protfolio {
+		padding: 50px 0;	
+	}
+
+	.section-header p::after {
+	    content: '';
+	    display: inline-block;
+	    width: 15%;
+	    height: 2px;
+	    background-color: #032f3e;
+	    position: absolute;
+	    top: 45%;
+	    left: 55%;
+
+	}
+	.section-header p::before {
+	    content: '';
+	    display: inline-block;
+	    width: 15%;
+	    height: 2px;
+	    background-color: #032f3e;
+	    position: absolute;
+	    top: 45%;
+	    left: 30%;
+	}
+
+}
+
+@media (max-width: 1130px) {
+	#bannar h1 {
+	    position: absolute;
+	    left: 50%;
+	    top: 50%;
+	    transform: translate(-50%,-50%);
+	    color: #fff;
+	    font-weight: 500;
+	    font-size: 40px;
+	}
+}
+
+@media (max-width: 960px) {
+	#bannar h1 {
+	    position: absolute;
+	    left: 50%;
+	    top: 50%;
+	    transform: translate(-50%,-50%);
+	    color: #fff;
+	    font-weight: 500;
+	    font-size: 40px;
+	}
+}
+
+@media (max-width: 766px) {
+	#protfolio .row .col-padding{
+		margin-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 905px){
+		#bannar h1{
+		position: relative;
+		font-size: 30px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	#bannar h3 {
+		font-size: 23px;
+		text-align: center;
+		position: relative;
+	}	
+}
+
+@media (max-width: 340px) {
+	.icon{
+		display: none;
+	}
+
+	#bannar {
+		background-image: url("../img/pic2.jpg");
+		background-repeat:no-repeat;
+		background-size: 100% 100%;
+		padding: 150px 0;
+		position: relative;
+	}
+
+	#bannar h1 {
+		position: relative;
+		text-align: left;
+		font-size: 24px;
+		text-align: center;
+		margin-bottom: 0;
+	}
+
+	#bannar h3 {
+		position: relative;
+		text-align: left;
+		font-size: 23px;
+		text-align: center;
+		margin-top: 0;
+	}
+
+	#about {
+			padding: 50px 0;	
+	}
+
+	.parent .caption .need h1 {
+		font-size: 20px;
+	}
+
+	.section-header p::after {
+
+	    content: '';
+	    display: inline-block;
+	    width: 20%;
+	    height: 2px;
+	    background-color: #032f3e;
+	    position: absolute;
+	    top: 45%;
+	    left: 60%;
+
+	}
+
+	.section-header p::before {
+	    content: '';
+	    display: inline-block;
+	    width: 20%;
+	    height: 2px;
+	    background-color: #032f3e;
+	    position: absolute;
+	    top: 45%;
+	    left: 19%;
+	}
+
+	.section-header h2 {
+		font-size: 30px;
+	}
+
+	#footer .row .up-symble ul{
+	   justify-content: flex-start;
+	   padding-left:0;
+	}
+
+	#footer .row .up-symble ul li {
+		padding-left: 0;
+		padding-right: 25px;
+	}
+
+}
+
+/*===========Media Quere End Heare===================*/
